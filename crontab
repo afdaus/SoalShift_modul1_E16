@@ -1,7 +1,8 @@
-#nomor 1
-#14 14 14 2 5 ~/modul_1/soal1.sh
+# nomor 1
+14 14 14 2 5 ~/modul_1/soal1.sh
+# nomor 4
+* 1 * * * ~ ~/modul_1/soal4.sh
 #nomor 5
-#2-30/6 * * * * ~/modul_1/soal5.sh
-#nomor 4
-#* 1 * * * ~ ~/modul_1/soal4.sh
+2-30/6 * * * * ~/modul_1/soal5.sh
+
 
