@@ -49,7 +49,7 @@ Semua hasilnya akan di masukkan kepada $filename.
 jamDec pada fungsi di atas berfungsi untuk mengambil jam pada nama file. Sisanya mirip dengan fungsi enkripsi dengan memainkan index karakter ASCII.
 
 - Untuk menjalankan skrip pada waktu tertentu, maka menggunakan perintah crontab, dengan ketentuan:
-`* 1 * * * ~ ~/modul_1/soal4.sh`
+`* 1 * * * ~/modul_1/soal4.sh`
 
 # SOAL 5
 Untuk menyelesaikan soal nomor 5, maka langkah-langkahnya sebagai berikut:
