@@ -1,5 +1,5 @@
 # Soal Shift modul 1
---SOAL 1--
+# --SOAL 1--
 Untuk menyelesaikan soal nomor 1, maka langkah-langkahnya sebagai berikut:
 1. Mengunduh file "nature.zip" ke dalam komputer (dalam hal ini, file nature.zip saya pindahkan ke home/modul_1/)
 2. Membuat skrip bash sebagai berikut:
@@ -8,10 +8,10 @@ Untuk menyelesaikan soal nomor 1, maka langkah-langkahnya sebagai berikut:
 -setelah itu, variabel step1 di iterasi menggunakan loop, untuk mengkonversi file jpg. Perintah yang digunakan ialah base64 dan Hexdump. Perintah base64 digunakan untuk enkripsi atau dekripsi sebuah data. perintah yang digunakan ialah `base64 -d ~/modul_1/nature/"$i"`. Perintah tersebut akan menghasilkan heksadecimal dari file yang bersangkutan.Kemudian heksadecimal tersebut di kembalikan menjadi aslinya dan disimpan ke dalam file lain dengan perintah hexxdump (xxd -r > "direktori_file", -r berarti reverse, > berarti untuk menyimpan ke dalam file) `xxd -r > ~/modul_1/nature/"hasil$i"`.
 
 
---SOAL 2--
+# --SOAL 2--
 
 
---SOAL 3--
+# --SOAL 3--
 Untuk menyelesaikan soal nomor 3, maka langkah-langkahnya sebagai berikut:
 1. Dalam soal ini, kami mengasumsikan bahwa jumlah file password dibuat sesuai dengan inputan.
 2. Membuat skrip bash sebagai berikut:
@@ -19,10 +19,10 @@ Untuk menyelesaikan soal nomor 3, maka langkah-langkahnya sebagai berikut:
 -membuat iterasi loop sebanyak jumlah inputan (dengan variabel iterasi num, sebanyak jml).
 -Sebelum membuat file password$num, maka di cek terlebih dahulu apakah file tersebut sudah ada atau belum. Hal ini dapat dilakukan dengan perintah -f "nama_file" (`-f "password$num.txt"`). Jika sudah ada file dengan nama tersebut, maka variabel $num akan di tambah 1. Sedangkan, jika tidak ditemukan dengan nama file tersebut, maka password akan tersimpan di file dengan nama tersebut. Perintah yang digunakan ialah `/dev/urandom tr -dc A-Za-z0-9 | head -c12 &>> "password$num.txt`. Untuk membuat random word alfanumerik digunakan perintah `/dev/urandom`, dengan ketentuan `A-Za-z0-9` menggunakan perintah tr. Setelah itu di limit sebanyak 12 karakter dengan perintah `head -c12`, dan disimpan ke dalam file dengan perintah `&>> "password$num.txt"`.
 
---SOAL 4--
+# --SOAL 4--
 
 
---SOAL 5--
+# --SOAL 5--
 Untuk menyelesaikan soal nomor 5, maka langkah-langkahnya sebagai berikut:
 1. Membuat skrip bash sebagai berikut:
 - Menampilkan isi file syslog dengan perintah cat (`cat /var/log/syslog`).
