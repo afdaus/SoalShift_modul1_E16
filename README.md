@@ -21,7 +21,7 @@ Penjelasan :
 - Pada soal nomor 2 ini kita menggunakan awk, pada nomor 2a kita menghitung jumlah quantity setiap negara dan mengurutkannya, pertama negaranya dibuat menjadi array yang berisi quantity penjualan negara tersebut, serta menanmbahkan `{if($7=='2012')` yang berarti hanya quantity pada tahun 2012 yang ditambah. Setelah itu diurutkan dengan `sort -nr` yang artinya mengurutkan dari yang terbesar ke yang terkecil. Di soal 2a ini hanya diminta menampilkan 1 negara dengan penjualan terbanyak, kita tinggal menambahkan `head -n1`.
 - Karena pada soal 2a kita telah mengetahui negara dengan penjualan terbanyak yaitu United States, pada soal 2b ini kita tinggal menambahkan satu lagi syaratnya `{if($7 == '2012' && $1=="United States")`. Dan pada soal ini kita diminta menampilkan tiga product line dengan penjualan terbanyak. Tinggal menambahkan `head -n3`
 - Setelah mengetahui 3 product line dengan penjualan terbanyak kita dapat mengerjakan soal 2b dengan menambahkan syarat lagi `($4 == "Personal Accessories" || $4 == "Camping Equipment" || $4 == "Outdoor Protection"))`. Selebihnya sama.
-Keterangan :
+- Keterangan :
 - $1 = kolom dari negara
 - $4 = kolom dari product line
 - $6 = kolom dari procut
